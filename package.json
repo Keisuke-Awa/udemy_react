@@ -4,12 +4,30 @@
   "main": "index.js",
   "author": "Keisuke Awazu <keisuke.awa.basket@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server"
+  },
   "dependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^4.12.0",
-    "webpack-dev-server": "^3.1.4"
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "import-glob-loader": "^1.1.0",
+    "node-sass": "^4.9.0",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "3.3.0",
+    "webpack-dev-server": "2.5.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.9.1"
   }
 }
