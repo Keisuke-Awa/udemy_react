@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 
 const GeocodeResult = ({ address, location }) => (
@@ -12,10 +12,10 @@ const GeocodeResult = ({ address, location }) => (
 GeocodeResult.propTypes = {
   address: PropTypes.string,
   location: PropTypes.objectOf(PropTypes.number).isRequired,
-}
+};
 
 GeocodeResult.defaultProps = {
   address: '',
-}
+};
 
 export default GeocodeResult;
